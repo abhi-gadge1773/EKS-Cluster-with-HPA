@@ -29,6 +29,8 @@ kubectl apply -f deployment.yaml
 3. Expose Deployment with LoadBalancer
 ```
 kubectl expose deployment mywebd --type=LoadBalancer --name=mywebd-svc --port=80
+```
+```
 kubectl get svc mywebd-svc
 ```
 
@@ -44,14 +46,19 @@ http://<EXTERNAL-IP>
 4. Install Metrics Server
 ```
 kubectl apply -f https://github.com/kubernetes-sigs/metrics-server/releases/latest/download/components.yaml
+```
+```
 kubectl get pods -n kube-system
+```
 kubectl top pods
 ```
 
 5. Configure Horizontal Pod Autoscaler
 ```
 kubectl autoscale deployment mywebd --cpu-percent=50 --min=1 --max=10
+```
 kubectl get hpa
+```
 kubectl get hpa -w
 ```
 
@@ -79,6 +86,7 @@ kubectl get hpa -w
 ```
 ```
 kubectl get pods
+```
 kubectl top pods
 ```
 
