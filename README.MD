@@ -52,6 +52,9 @@ kubectl get hpa
 kubectl get hpa -w
 ```
 
+![Image Alt](https://github.com/abhi-gadge1773/EKS-Cluster-with-HPA/blob/main/Screenshot%202025-07-30%20142542.png?raw=true)
+
+
 6. Generate Load
 ```
 kubectl run -i --tty load-generator --rm --image=busybox -- /bin/sh
@@ -72,7 +75,6 @@ kubectl top pods
 ```
 
 📷 Screenshots: Live Example
-![Image Alt](https://github.com/abhi-gadge1773/EKS-Cluster-with-HPA/blob/main/Screenshot%202025-07-30%20142542.png?raw=true)
 ![Image Alt](https://github.com/abhi-gadge1773/EKS-Cluster-with-HPA/blob/main/Screenshot%202025-07-30%20142548.png?raw=true)
 ![Image Alt](https://github.com/abhi-gadge1773/EKS-Cluster-with-HPA/blob/main/Screenshot%202025-07-30%20142552.png?raw=true)
 ![Image Alt](https://github.com/abhi-gadge1773/EKS-Cluster-with-HPA/blob/main/Screenshot%202025-07-30%20142556.png?raw=true)
