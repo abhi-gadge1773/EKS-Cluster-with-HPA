@@ -37,7 +37,7 @@ Test external access (replace <EXTERNAL-IP>):
 
 http://<EXTERNAL-IP>
 
-![Image Alt](https://github.com/abhi-gadge1773/EKS-Cluster-with-HPA/blob/main/Screenshot%202025-07-30%20142556.png?raw=true)
+![Image Alt](https://github.com/abhi-gadge1773/EKS-Cluster-with-HPA/blob/main/Screenshot%202025-07-30%20150631.png?raw=true)
 
 
 
