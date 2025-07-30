@@ -72,4 +72,8 @@ kubectl top pods
 ```
 
 📷 Screenshots: Live Example
+Screenshot 2025-07-30 142556.png
+Screenshot 2025-07-30 142542.png
+Screenshot 2025-07-30 142548.png\
+Screenshot 2025-07-30 142552.png
 
