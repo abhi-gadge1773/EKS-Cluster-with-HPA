@@ -1,3 +1,4 @@
+```
 🚀 AWS EKS: HPA Setup with Load Testing
 🎯 Project Goal
 Show how Kubernetes’ Horizontal Pod Autoscaler (HPA) automatically scales pods in AWS EKS based on real CPU load.
@@ -56,3 +57,4 @@ kubectl get hpa -w
 kubectl get pods
 kubectl top pods
 📷 Screenshots: Live Example
+```
