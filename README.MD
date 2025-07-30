@@ -72,8 +72,8 @@ kubectl top pods
 ```
 
 📷 Screenshots: Live Example
-Screenshot 2025-07-30 142556.png
-Screenshot 2025-07-30 142542.png
-Screenshot 2025-07-30 142548.png\
-Screenshot 2025-07-30 142552.png
+![Image Alt](https://github.com/abhi-gadge1773/EKS-Cluster-with-HPA/blob/main/Screenshot%202025-07-30%20142542.png?raw=true)
+![Image Alt](https://github.com/abhi-gadge1773/EKS-Cluster-with-HPA/blob/main/Screenshot%202025-07-30%20142548.png?raw=true)
+![Image Alt](https://github.com/abhi-gadge1773/EKS-Cluster-with-HPA/blob/main/Screenshot%202025-07-30%20142552.png?raw=true)
+![Image Alt](https://github.com/abhi-gadge1773/EKS-Cluster-with-HPA/blob/main/Screenshot%202025-07-30%20142556.png?raw=true)
 
