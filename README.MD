@@ -61,7 +61,12 @@ kubectl run -i --tty load-generator --rm --image=busybox -- /bin/sh
 ```
 
 # Inside the pod:
+```
 while true; do wget -q -O- http://<EXTERNAL-IP>; done
+```
+
+![Image Alt](https://github.com/abhi-gadge1773/EKS-Cluster-with-HPA/blob/main/Screenshot%202025-07-30%20142552.png?raw=true)
+
 
 7. Observe Autoscaling
 Keep an eye on HPA and pod behavior:
@@ -76,6 +81,5 @@ kubectl top pods
 
 📷 Screenshots: Live Example
 ![Image Alt](https://github.com/abhi-gadge1773/EKS-Cluster-with-HPA/blob/main/Screenshot%202025-07-30%20142548.png?raw=true)
-![Image Alt](https://github.com/abhi-gadge1773/EKS-Cluster-with-HPA/blob/main/Screenshot%202025-07-30%20142552.png?raw=true)
 ![Image Alt](https://github.com/abhi-gadge1773/EKS-Cluster-with-HPA/blob/main/Screenshot%202025-07-30%20142556.png?raw=true)
 
