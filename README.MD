@@ -24,6 +24,9 @@ eksctl create cluster --name my-cluster --region us-west-2
 ```
 2. Deploy the Application
 ```
+kubectl create deployment mywebd --image=vimal13/apache-webserver-php --dry-run=client -o yaml > deployment.yaml
+```
+```
 kubectl apply -f deployment.yaml
 ```
 3. Expose Deployment with LoadBalancer
