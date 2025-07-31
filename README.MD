@@ -93,6 +93,7 @@ kubectl get hpa -w
 ```
 kubectl get pods
 ```
+```
 kubectl top pods
 ```
 
